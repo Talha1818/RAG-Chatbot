@@ -94,6 +94,6 @@ if __name__ == "__main__":
     groq_api_key = "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"
     
     qa_system = DocumentQA(documents_directory, model_name, groq_api_key)
-    user_query = "Unacceptable Use"
+    user_query = "Unacceptable Use?"
     json_result = qa_system.invoke_chain(user_query)
     print(json_result)
